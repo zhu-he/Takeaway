@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="42dp" >
+
+        <ImageButton
+            android:id="@+id/ReturnButton"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="#00ffffff"
+            android:contentDescription="@string/returnbutton"
+            android:src="@drawable/ic_menu_revert" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/favorite_name"
+            android:textColor="#ddffffff"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/AddButton"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="2dp"
+            android:background="#00ffffff"
+            android:contentDescription="@string/addbutton"
+            android:src="@drawable/ic_menu_add" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/FavoriteTip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/favorite_tip"
+        android:textSize="20sp" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+
+</LinearLayout>

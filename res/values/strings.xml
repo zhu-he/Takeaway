@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">外卖神器</string>
+    <string name="favorite_name">收藏</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_quit">退出</string>
+    <string name="menu_update_list">更新店铺信息</string>
+    <string name="menu_update">检查更新</string>
+    <string name="menu_feedback">意见/建议</string>
+    <string name="menu_add">添加店铺</string>
+    <string name="menu_theme">主题</string>
+    <string name="callbutton">拨打电话</string>
+    <string name="addbutton">添加收藏</string>
+    <string name="returnbutton">返回</string>
+    <string name="add_dialog_name">名字</string>
+    <string name="add_dialog_namehint">示例：一中切糕店</string>
+    <string name="add_dialog_number">号码</string>
+    <string name="add_dialog_numberhint">多个号码用逗号分隔</string>
+    <string name="add_dialog_detail">详细信息</string>
+    <string name="add_dialog_favorite">同时加入我的收藏</string>
+    <string name="favorite_tip">点击添加收藏。\n点击右上角的按钮或者在菜谱界面的“收藏”按钮亦可添加收藏。</string>
+    
+</resources>
